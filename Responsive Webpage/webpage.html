@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Web page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/web.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="350">
+    <div class="wrapper">
+            <!-- Header section start -->  
+        <header class="header">
+            <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top ">
+                <!-- Brand/logo -->
+                <a class="navbar-brand" href="#">
+                    <img src="./Assets/Dummy-logo.png" alt="logo" class="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbarSm">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Links -->
+                <div class="navbar-collapse collapse" id="collapsingNavbarSm">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#s1">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#s2">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#s3">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#s4">Testimonials</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+         <!-- Header section end -->
+
+        <div class="container-fluid">
+            <!-- Banner section start -->
+            <div class="section banner">
+                <div id="demo" class="carousel slide" data-ride="carousel">
+
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators">
+                        <li data-target="#demo" data-slide-to="0" class="active"></li>
+                        <li data-target="#demo" data-slide-to="1"></li>
+                        <li data-target="#demo" data-slide-to="2"></li>
+                    </ul>
+
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="Assets/Innovation.jpg" alt="Los Angeles" width="1100" height="500">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Assets/Innovation.jpg" alt="Chicago" width="1100" height="500">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Assets/Innovation.jpg" alt="New York" width="1100" height="500">
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+                <!-- Banner section end -->
+
+                <!-- About us section start -->
+                <div class="section" id="s1">
+                    <h3>About Us</h3>
+                    <div class="row">
+                        <div class="col-sm-12 col-xs-12 col-md-6 col-lg-5"> <img class="img-fluid"
+                                src="./Assets/abt.jpg" alt="capgemini picture"></div>
+                        <div class="col-sm-12 col-xs-12 col-md-6 col-lg-7">
+                            <p>
+                                A global leader in consulting, technology services and digital transformation,
+                                Capgemini is at the forefront of innovation to address the entire breadth of clients’
+                                opportunities in the evolving world of cloud, digital and platforms.
+                                Capgemini Invent combines strategy, technology, data science and creative design to
+                                solve the most complex business and technology challenges.
+                                Disruption is not new, but the pace of change is. The fourth industrial revolution is
+                                forcing businesses to rethink everything they know.
+                                Leading organizations behave as living entities, constantly adapting to change.
+                                With invention at their core, they continuously redesign their business to generate
+                                new sources of value. Winning is about fostering inventive thinking to create what comes
+                                next.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- About us section end -->
+
+                <!-- Services section start -->
+                <div class="section " id="s2">
+                    <h3>Services</h3>
+                    <div class="row">
+                        <div class="col-sm-12 col-xs-12 col-md-6 col-lg-3">
+                            <div class="hovereffect">
+                                <img class="img-fluid services" src="./Assets/innovation2.jpg" alt="capgemini picture">
+                                <div class="overlay">
+                                    <h2>Transformation & Innovation</h2>
+                                    <p>
+                                        Enabling organizations to achieve the competitive edge amid digital disruption
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-xs-12 col-md-6 col-lg-3">
+                            <div class="hovereffect">
+                                <img class="img-fluid services" src="./Assets/content-risk-cyberrisk-717376881.jpg"
+                                    alt="capgemini picture">
+                                <div class="overlay">
+                                    <h2>Cybersecurity & Risk</h2>
+                                    <p>
+                                        Only a preventative and progressive approach will keep you ahead of increasingly
+                                        sophisticated threats.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-xs-12 col-md-6 col-lg-3">
+                            <div class="hovereffect">
+                                <img class="img-fluid services" src="./Assets/buisness.jpg" alt="capgemini picture">
+                                <div class="overlay">
+                                    <h2>Business Services</h2>
+                                    <p>
+                                        Enhance operational agility and accelerate the transformation of business
+                                        processes.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-xs-12 col-md-6 col-lg-3">
+                            <div class="hovereffect">
+                                <img class="img-fluid services" src="./Assets/tech ser.jpg" alt="capgemini picture">
+                                <div class="overlay">
+                                    <h2>Technology Operations</h2>
+                                    <p>
+                                        We help CIOs and IT leaders to reduce costs and support greater business agility
+                                        by
+                                        modernising their IT infrastructure and applications.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Services section end -->
+                
+                 <!-- Gallery section start -->
+                <div class="section" id="s3">
+                    <h3>Gallery</h3>
+
+                    <div class='list-group gallery'>
+                        <div class="row ">
+                            <div class='col-sm-12 col-xs-12 col-md-6 col-lg-3 '>
+                                <a class="thumbnail fancybox " rel="ligthbox"
+                                    href="Assets/Tribes Amsterdam South Axis ITO - Offices 1-1000px.jpg">
+                                    <img class="img-fluid logo1" alt=""
+                                        src="Assets/Tribes Amsterdam South Axis ITO - Offices 1-1000px.jpg" />
+                                    <div class='text-right'>
+                                    </div> <!-- text-right / end -->
+                                </a>
+                            </div> <!-- col-6 / end -->
+                            <div class='col-sm-12 col-xs-12 col-md-6 col-lg-3'>
+                                <a class="thumbnail fancybox" rel="ligthbox"
+                                    href="Assets/Tribes Amsterdam South Axis ITO - Offices 1-1000px.jpg">
+                                    <img class="img-fluid logo1" alt=""
+                                        src="Assets/Tribes Amsterdam South Axis ITO - Offices 1-1000px.jpg" />
+                                    <div class='text-right'>
+                                    </div> <!-- text-right / end -->
+                                </a>
+                            </div> <!-- col-6 / end -->
+                            <div class='col-sm-12 col-xs-12 col-md-6 col-lg-3'>
+                                <a class="thumbnail fancybox" rel="ligthbox"
+                                    href="Assets/Tribes Amsterdam South Axis ITO - Offices 1-1000px.jpg">
+                                    <img class="img-fluid logo1" alt=""
+                                        src="Assets/Tribes Amsterdam South Axis ITO - Offices 1-1000px.jpg" />
+                                    <div class='text-right'>
+
+                                    </div> <!-- text-right / end -->
+                                </a>
+                            </div> <!-- col-6 / end -->
+                            <div class='col-sm-12 col-xs-12 col-md-6 col-lg-3'>
+                                <a class="thumbnail fancybox" rel="ligthbox"
+                                    href="Assets/Tribes Amsterdam South Axis ITO - Offices 1-1000px.jpg">
+                                    <img class="img-fluid logo1" alt=""
+                                        src="Assets/Tribes Amsterdam South Axis ITO - Offices 1-1000px.jpg" />
+                                    <div class='text-right'>
+
+                                    </div> <!-- text-right / end -->
+                                </a>
+                            </div> <!-- col-6 / end -->
+                        </div>
+                    </div> <!-- list-group / end -->
+
+                </div>
+                 <!-- Gallery section end -->
+
+
+                <!-- Testimonials section start-->
+                <div class="section testimonials" id="s4">
+                    <h3>Testimonials</h3>
+                    <div id="myCarousel" class="carousel slide " data-ride="carousel">
+                        <!-- Carousel indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>
+                        <!-- Wrapper for carousel items -->
+                        <div class="carousel-inner">
+                            <div class="item carousel-item active">
+                                <div class="img-box"><img src="/Assets/download (1).jpg" alt=""></div>
+                                <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu
+                                    sem
+                                    tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel,
+                                    semper
+                                    malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non
+                                    aliquet.</p>
+                                <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
+                            </div>
+                            <div class="item carousel-item">
+                                <div class="img-box"><img src="/Assets/download (2).jpg" alt=""></div>
+                                <p class="testimonial">Vestibulum quis quam ut magna consequat faucibus. Pellentesque
+                                    eget
+                                    nisi a mi suscipit tincidunt. Utmtc tempus dictum risus. Pellentesque viverra
+                                    sagittis
+                                    quam at mattis. Suspendisse potenti. Aliquam sit amet gravida nibh, facilisis
+                                    gravida
+                                    odio.</p>
+                                <p class="overview"><b>Antonio Moreno</b>, Web Developer</p>
+                            </div>
+                            <div class="item carousel-item">
+                                <div class="img-box"><img src="/Assets/download.jpg" alt=""></div>
+                                <p class="testimonial">Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id
+                                    lacinia. Etiam faucibus mauris id tempor egestas. Duis luctus turpis at accumsan
+                                    tincidunt. Phasellus risus risus, volutpat vel tellus ac, tincidunt fringilla massa.
+                                    Etiam hendrerit dolor eget rutrum.</p>
+                                <p class="overview"><b>Michael Holz</b>, Seo Analyst</p>
+                            </div>
+                        </div>
+                        <!-- Carousel controls -->
+                        <a class="carousel-control left carousel-control-prev controls" href="#myCarousel"
+                            data-slide="prev">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                        <a class="carousel-control right carousel-control-next controls" href="#myCarousel"
+                            data-slide="next">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonials section end -->
+
+
+            <!-- Footer -->
+            <footer class="page-footer font-small blue pt-4 footer">
+
+                <!-- Footer Links -->
+                <div class="container-fluid text-center text-md-left">
+
+                    <!-- Grid row -->
+                    <div class="row">
+
+                        <!-- Grid column -->
+                        <div class="col-md-6 mt-md-0 mt-3">
+
+                            <!-- Content -->
+                            <h5 class="text-uppercase">Adress</h5>
+                            <p>
+                                CASACADE Knowledge Park, IT 7 / IT 8,
+                                TTC Industrial Area,<br>Thane-Belapur Road,
+                                Airoli, Navi Mumbai, Maharashtra 400708
+                            </p>
+
+                        </div>
+                        <!-- Grid column -->
+
+                        <hr class="clearfix w-100 d-md-none pb-3">
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 mb-md-0 mb-3">
+
+                            <!-- Links -->
+                            <h5 class="text-uppercase">Quick Links</h5>
+
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#!">Link 1</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Link 2</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Link 3</a>
+                                </li>
+                                <li>
+                                    <a href="#!">Link 4</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 mb-md-0 mb-3">
+
+                            <!-- Links -->
+                            <h5 class="text-uppercase">Join Us</h5>
+
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#!"><i class="fa fa-facebook"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#!"><i class="fa fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#!"><i class="fa fa-instagram"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#!"><i class="fa fa-google-plus"></i></a>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <!-- Grid column -->
+
+                    </div>
+                    <!-- Grid row -->
+
+                </div>
+                <!-- Footer Links -->
+
+                <!-- Copyright -->
+                <div class="footer-copyright text-center copy  py-3">© 2019 Copyright:
+                    <a href="www.Capgemini.com">www.roy.com</a>
+                </div>
+                <!-- Copyright -->
+
+            </footer>
+            <!-- Footer -->
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <!-- References: https://github.com/fancyapps/fancyBox -->
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
+            media="screen">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+
+        <script type="text/javascript" src="web.js"></script>
+
+        <script>
+            $(document).ready(function () {
+                web.init();
+
+
+            });
+        </script>
+</body>
+
+
+</html>
